@@ -5,7 +5,7 @@ export default function Card(props) {
   return (
     <div className='card-container'>
       <img
-        src={`./img/${props.img}`}
+        src={`../img/${props.img}`}
         alt='Example of an experience or excursion'
         className='card-image'
       />
