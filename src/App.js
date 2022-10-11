@@ -1,24 +1,30 @@
-// Component imports
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Card from './components/Card';
-
-// Image imports
-import imgZaferes from './img/zaferes.png';
+import data from './data';
 
 export default function App() {
+  const cardElements = data.map(card => {
+    return (
+    <Card
+    key={card.id} 
+    img={card.img}
+    openSpots={card.openSpots}
+    rating={card.stats.rating}
+    reviewCount={card.stats.reviewCount}
+    location={card.location}
+    title={card.title} 
+    price={card.price}
+    />
+    )
+})
   return (
     <div>
       <Navbar />
       <Hero />
-      <Card
-        img={imgZaferes}
-        rating='5.0'
-        reviewCount={6}
-        country='USA'
-        title='Life Lessons with Katie Zaferes'
-        price={136}
-      />
+      <div className="cards">
+        {cardElements}
+      </div>
     </div>
   );
 }
