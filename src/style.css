@@ -2,11 +2,17 @@
   box-sizing: border-box;
 }
 
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   font-family: 'Poppins';
   overflow-x: hidden;
-  background-image: url(./img/map.png);  
+  background-image: url(./img/map.png);
+  width: 100vw;  
 }
 
 .navbar {
