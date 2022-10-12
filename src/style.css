@@ -6,6 +6,7 @@ body {
   margin: 0;
   font-family: 'Poppins';
   overflow-x: hidden;
+  background-image: url(./img/zzz.png);  
 }
 
 .navbar {
@@ -13,15 +14,19 @@ body {
   height: 70px;
   width: 100vw;
   display: flex;
+  align-items: center;
   padding: 20px 36px;
+  background: rgb(241, 243, 245);
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 
-.nav-logo {
-  max-width: 100px;
+.navbar-logo {
+  height: 50px;
+  width: 100px;
 }
 
 .hero-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   padding: 30px;
@@ -29,8 +34,9 @@ body {
 
 .hero-collage {
   /* re-check max-width */
-  max-width: 600px; 
+  max-width: 800px;
   align-self: center;
+  height: 290px;
 }
 
 .hero-title {
@@ -58,6 +64,7 @@ body {
 }
 
 .card-image {
+  background-size: cover;
   height: 235px;
   width: 176px;
 }

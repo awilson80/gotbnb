@@ -1,4 +1,4 @@
-import exp from '../img/onlineExperiences.png';
+import exp from '../img/kingsLanding.jpg';
 
 export default function Hero() {
   return (
@@ -8,10 +8,10 @@ export default function Hero() {
         alt='Collage of images representing online experiences'
         className='hero-collage'
       />
-      <h1 className='hero-title'>Online Experiences</h1>
+      <h1 className='hero-title'>Experiences</h1>
       <p className='hero-text'>
-        Join unique interactive activities led by one-of-a-kind hosts—all
-        without leaving home.
+        Join unique interactive activities led by one-of-a-kind hosts—spanning
+        from online to wherever is west of Westeros.
       </p>
     </div>
   );
