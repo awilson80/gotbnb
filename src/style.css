@@ -16,7 +16,6 @@ body {
 }
 
 .navbar {
-  /* position: absolute; */
   height: 70px;
   width: 100vw;
   display: flex;
@@ -39,7 +38,6 @@ body {
 }
 
 .hero-collage {
-  /* re-check max-width */
   max-width: 800px;
   align-self: center;
   height: 290px;
@@ -51,7 +49,6 @@ body {
 
 .hero-text {
   margin-top: 0;
-  /* width: 320px; Put this in a media query later */
 }
 
 .cards {
